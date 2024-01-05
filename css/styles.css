@@ -1,7 +1,7 @@
 h1 {
     color: black;
 }
-.inline-block{
+div.inline-block{
     display: inline-block;
     vertical-align:top;
 }
@@ -11,7 +11,7 @@ div.logo{
     padding:1%;
 }
 /*Targeting HTML element nav*/
-.navigation {
+nav {
     width: 73%;
     padding:1%;
 }
@@ -21,6 +21,11 @@ ul{
     width: 50%;
     margin-left: auto;
     text-align: right;
+
+} 
+ul li {
+    display: inline-block;
+    vertical-align:top;
 }
 
 /* Center images inside their containers */
