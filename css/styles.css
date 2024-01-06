@@ -1,4 +1,10 @@
+header {
+    background-color: #000001;
+
+}
+
 h1 {
+
     color: black;
 }
 div.inline-block{
@@ -27,7 +33,11 @@ ul li {
     display: inline-block;
     vertical-align:top;
 }
-
+.inline-block ul li {
+    display: inline-block;
+    vertical-align:top;
+    color:aliceblue;
+}
 /* Center images inside their containers */
 .logo {
     text-align: center;
