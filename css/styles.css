@@ -1,16 +1,19 @@
+body{
+    background-color:#056249;
+}
 header {
     background-color: #000001;
-
+display: inline-grid;
+grid-template-columns: 1fr 1fr;
+width: 100%;
+align-items: center;
 }
 
 h1 {
 
-    color: black;
+    color:#F3F3f3;
 }
-div.inline-block{
-    display: inline-block;
-    vertical-align:top;
-}
+
 /*Targeting div with the class of logo*/
 div.logo{
     width: 23%;
@@ -23,37 +26,37 @@ nav {
 }
 
 /* Targeting the base HTML ul element */
-ul{
-    width: 50%;
-    margin-left: auto;
-    text-align: right;
 
-} 
-ul li {
-    display: inline-block;
+
+
+.inline-block ul {
+    display: inline-grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
     vertical-align:top;
+    color: #F3F3f3;
 }
 .inline-block ul li {
-    display: inline-block;
-    vertical-align:top;
-    color:aliceblue;
+    list-style-type: none;
+    padding: 0px 50px;
 }
+
+
 /* Center images inside their containers */
 .logo {
     text-align: center;
 }
 
 /*Code hero image CSS*/
-.herolmg {
+.heroImg {
     height: 600px;
     padding: 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 .content {
-    width: 500px;
-    margin:0 auto;
+   color:#F3F3f3;
+    
 }
 
 /* Add the base HTML footer element */
